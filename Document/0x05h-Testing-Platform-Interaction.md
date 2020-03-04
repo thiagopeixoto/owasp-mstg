@@ -1099,8 +1099,8 @@ You need to determine whether the method `addJavascriptInterface` is used, how i
 The following example shows how `addJavascriptInterface` is used to bridge a Java Object and JavaScript in a WebView:
 
 ```Java
-WebView webview = new WebView(this);
-WebSettings webSettings = webview.getSettings();
+WebView myWebView = new WebView(this);
+WebSettings webSettings = myWebView.getSettings();
 webSettings.setJavaScriptEnabled(true);
 
 MSTG_ENV_008_JS_Interface jsInterface = new MSTG_ENV_008_JS_Interface(this);
